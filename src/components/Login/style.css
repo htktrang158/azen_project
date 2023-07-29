@@ -1,0 +1,95 @@
+.login-background {
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), #0c0a0a), url(https://uat-anzen.azurewebsites.net/static/backgroundLogin.fe7725dd.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    opacity: .8;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+
+}
+
+.login-background .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 0 0 4px 1px rgba(38, 38, 37, .3137254901960784);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.logoBlock .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.logoBlock .logo img {
+    width: 132px;
+    cursor: pointer;
+}
+
+.logoBlock p {
+    font-size: 24px;
+    color: #ccc;
+    font-family: "Nunito", sans-serif;
+}
+
+.logoBlock span {
+    color: #f42323;
+    font-weight: 700;
+
+}
+
+.login-form-button {
+
+    font-weight: 700;
+    background-color: #f42323;
+    border: #f42323;
+    height: 40px;
+    width: 50%;
+    padding: 6.4px 15px;
+    font-size: 16px;
+
+}
+
+
+.loginContent {
+    margin-top: 32px;
+    color: #262625;
+}
+
+.regBlock a {
+    color: #f42323;
+}
+
+.regBlock {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.login-background .ant-input {
+    height: 48px;
+
+    border-color: #8f8a8c;
+    border-radius: 25px;
+}
+
+.login-background .ant-input-password {
+
+
+    border-color: #8f8a8c;
+    border-radius: 25px;
+
+}

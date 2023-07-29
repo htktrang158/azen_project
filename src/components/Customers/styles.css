@@ -1,0 +1,33 @@
+.customer-container {
+    padding-left: 20px;
+  }
+  .color-tabs {
+    color: #ffbd2f;
+  }
+  .customer-table-create-title {
+    margin: 0 0 15px 0;
+    color: #e61e1e;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .customer-table-create-form {
+    margin: 0 auto;
+  }
+  .customer-table-create-col {
+    padding: 0 10px;
+  }
+  .customer-table-create-col-btn {
+    position: absolute;
+    right: 10px;
+  }
+  .customer-table-create-col-first {
+    padding: 0;
+  }
+  /* TABLE RESULT */
+  .customer-table-result {
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #000;
+  }
+  

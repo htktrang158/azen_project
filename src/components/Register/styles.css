@@ -1,0 +1,89 @@
+.search .ant-row {
+    margin: 10px;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.timkiem .ant-btn {
+    color: #fff;
+    border-color: #ffbd2f;
+    background: #ffbd2f;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.tableRevision .ant-spin-dot i {
+    background-color: orange;
+    border: #000 !important;
+}
+
+.pages {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalRevision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 720px;
+    height: 1495.14px;
+}
+
+.tableRevision {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.cardRevision {
+    width: 775px;
+    background-color: #cccc;
+}
+
+.tableHome .ant-spin-dot-item {
+    background-color: orange;
+
+    /* Set the desired color for the loading dots */
+}
+
+.tableHome > .ant-table-content {
+    overflow: auto hidden !important;
+}
+
+.tableHome {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.ant-table-row {
+    background-color: white;
+}
+.cl_code {
+    background-color: rgb(244, 35, 35);
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+.cl_status,
+.cl_isDone {
+    border-radius: 15px;
+    height: 15px;
+    width: 30px;
+    cursor: pointer;
+}
+.btncolor{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }

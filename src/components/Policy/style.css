@@ -1,0 +1,64 @@
+.policy-container {
+  padding-left: 20px;
+}
+.color-tabs {
+  color: #ffbd2f;
+}
+.policy-table-create-title {
+  margin: 0 0 15px 0;
+  color: #e61e1e;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+.policy-table-create-form {
+  margin: 0 auto;
+}
+.policy-table-create-col {
+  padding: 0 10px;
+}
+.policy-table-create-col-btn {
+  position: absolute;
+  right: 10px;
+}
+.policy-table-create-col-first {
+  padding: 0;
+}
+/* TABLE RESULT */
+.policy-table-result {
+  margin-top: 50px;
+  margin-right: 10px;
+  border: 1px solid #000;
+}
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  table
+  thead.ant-table-thead
+  .ant-table-cell {
+  background-color: #ccc;
+}
+/* DetailPoliyy */
+.Pmodal-detail-content {
+  display: flex;
+  justify-content: space-between;
+}
+.Pmodal-detail-content-left h3 span {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.Pmodal-detail-content-right h3 span {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.PModal-BK .ant-modal-content {
+  width: 1000px;
+  margin-left: -200px;
+  border-bottom: 0.6px solid #000;
+}
+
+.PBK-Modal h3 span {
+  font-weight: normal;
+}

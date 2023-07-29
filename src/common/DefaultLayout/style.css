@@ -1,0 +1,110 @@
+Header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 16px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+    background: #f42323 !important;
+    justify-content: space-between;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+.ant-dropdown-link {
+    margin: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.logout {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 1000px;
+    /* overflow-x: hidden; */
+}
+
+.home_logo {
+
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+    transition: padding .3s cubic-bezier(.645, .045, .355, 1);
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+.home_logo img {
+
+    height: 32px;
+
+}
+
+.home_logo h1 {
+    display: inline-block;
+    height: 32px;
+    margin: 0 0 0 12px;
+    color: #f42323 !important;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    vertical-align: middle;
+    animation: pro-layout-title-hide .3s;
+}
+
+.sider {
+    background-color: #ccc !important;
+}
+
+.navbar {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ant-menu-item {
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+
+.navbar .ant-menu-item-active {
+    background-color: #ccc !important;
+    color: #f42323 !important;
+}
+
+.navbar .ant-menu-item-selected {
+    background-color: #f0f0f0 !important;
+    /* Màu nền khi item active */
+    font-weight: 600;
+    /* Độ dày chữ khi item active */
+    color: #f42323;
+    /* Màu chữ khi item active */
+    border-radius: 0%;
+    border-right: #ffbd2f solid 2px;
+
+}
+
+.footer-home {
+    text-align: center;
+    color: #ccc;
+}
+
+.contentHome {
+    width: fit-content;
+}

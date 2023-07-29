@@ -1,0 +1,228 @@
+/* .ant-modal-content {
+    max-width: 100%;
+}
+
+.myTable {
+    border: 1px solid;
+    border-color: #000;
+    margin: 10px;
+}
+
+.ant-table-content {
+    overflow: auto hidden !important;
+}
+
+
+
+.myTable .ant-table-cell {
+    white-space: nowrap;
+}
+
+
+
+
+
+.ant-modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+        0 6px 16px 0 rgba(0, 0, 0, 0.08),
+        0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: auto;
+}
+
+.ant-modal-body {
+    padding: 24px;
+    font-size: 14px;
+    line-height: 1.5715;
+    word-wrap: break-word;
+}
+
+.ant-card {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum", "tnum";
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+} */
+.search .ant-row {
+    margin: 10px;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.timkiem .ant-btn {
+    color: #fff;
+    border-color: #ffbd2f;
+    background: #ffbd2f;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.tableRevision .ant-spin-dot i {
+    background-color: orange;
+    border: #000 !important;
+}
+
+.tableHome .pages {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalRevision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 720px;
+    height: 1495.14px;
+}
+
+.tableRevision {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.cardRevision {
+    width: 775px;
+    background-color: #cccc;
+}
+
+.tableHome .ant-spin-dot-item {
+    background-color: orange;
+
+    /* Set the desired color for the loading dots */
+}
+
+/* 
+.tableHome>.ant-table-content {
+    overflow: auto hidden !important;
+} */
+
+.tableHome {
+    /* overflow-x: auto;
+    overflow-y: hidden; */
+
+    /* width: max-content; */
+    /* width: 250px; */
+    /* table-layout: auto; */
+    width: 100%;
+    margin: 12px;
+    z-index: 1;
+}
+
+.ant-table-row {
+    background-color: white;
+}
+
+.cl_code {
+    background-color: rgb(244, 35, 35);
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.cl_status,
+.cl_isDone {
+    border-radius: 15px;
+    height: 15px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.ant-table-tbody>tr>td,
+.ant-table-thead>tr>th {
+    padding: 2px;
+}
+
+/* tr:nth-child(odd) {
+    background: #f1e6ff;
+}
+*/
+tr:nth-child(even) {
+    background: white;
+}
+
+.ant-layout-content {
+    margin: 12px;
+    margin-right: 24px !important;
+}
+
+.tableHome thead[class*="ant-table-thead"] th {
+    background-color: #cccc !important;
+    color: rgba(0, 0, 0, 0.85);
+    border-color: #000;
+    text-align: center;
+    font-weight: 500;
+    padding: 16px;
+    border-radius: 0%;
+}
+
+.tableHome .ant-table-tbody>tr>td {
+    border-color: #000 !important;
+}
+
+.tableHome .ant-table-content table {
+    border: 1px solid black;
+    border-radius: 0%;
+    width: max-content;
+}
+
+.table th.ant-table-cell::before {
+    background: #000;
+}
+
+.tableHome .ant-table-container table>thead>tr:first-child>*:last-child,
+.tableHome .ant-table-container table>thead>tr:first-child>*:first-child {
+    border-start-end-radius: 0px;
+    border-start-start-radius: 0px;
+}
+
+.list-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 12px;
+    row-gap: 8px;
+}
+
+.table_landing {
+    /* Các thuộc tính CSS của bảng */
+    /* Ví dụ: */
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px #000 solid;
+}
+
+.table_landing th {
+    background-color: #ccc;
+    padding: 8px;
+    border: 1px #000 solid;
+}
+
+.table_landing td {
+    padding: 8px;
+    border: 1px #000 solid;
+}
+
+.table_landing tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table_landing tr:hover {
+    background-color: #eaeaea;
+}
